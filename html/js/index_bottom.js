@@ -1,0 +1,1 @@
+//$('.load-more').after("<div style='overflow: hidden; text-align:center;'><iframe id='index_bottom' name='index_bottom' height='100' width='100%' frameborder=0 scrolling=no src='http://m.lady8844.com/IMAGE/index_bottom.html' style='padding-top: 5px;'></iframe></div>");

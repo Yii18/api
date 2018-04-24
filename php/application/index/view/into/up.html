@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<title>修改用户信息</title>
+</head>
+<body>
+
+
+<center>
+	
+	<form action="?s=index/into/up" method="post" enctype="multipart/form-data">
+	<table>
+		<input type="hidden" name="id" value="{$userInfo['id']}">
+		<tr>
+			<td>用户名</td>
+			<td><input type="text" name="man" value="{$userInfo['man']}"></td>
+		</tr>
+		<tr>
+			<td>密码</td>
+			<td><input type="password" name="pwd" value="{$userInfo['pwd']}"></td>
+		</tr>
+		<tr>
+			<td>用户头像</td>
+			<td><input type="file" name="img_path"><br><img width="250" height="150"  src="{$userInfo['img_path']} " alt=""></td>
+		</tr>
+		<tr>
+			<td><input type="submit"></td>
+			<td></td>
+		</tr>
+	</table>
+	</form>
+</center>
+
+
+
+</body>
+</html>

@@ -1,0 +1,9 @@
+<?php 
+
+return [
+
+	'demo'=>'article',
+
+];
+
+
